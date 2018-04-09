@@ -28,7 +28,8 @@ public class ProductoTest {
     @Test
     public void readMismaClasificacion(){
         ProductoDao productoDao = new ProductoDao();
-        List<Producto> productos = productoDao.read("WHERE clasificacion = comida and precio > 15.50");
+        List<Producto> productos = productoDao.read("WHERE clasificacion = 'Comida' AND " +
+                "precio BETWEEN 20.30 AND 45.00");
         for (Producto producto : productos){
             System.out.println(producto.getDescripcion());
         }

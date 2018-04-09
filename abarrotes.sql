@@ -49,7 +49,7 @@ INSERT INTO productos (descripcion, precio, clasificacion, cant_exist, cant_max,
   ('Kitkat', 15.0, 'Dulces', 11, 20, 5),
   ('Huevos con jamon', 30.0, 'Comida', 1, 1, 1),
   ('Huevos con chorizo', 32.0, 'Comida', 1, 1, 1),
-  ('Omelette', 33.0, 'Comida', 1, 1, 1
+  ('Omelette', 33.0, 'Comida', 1, 1, 1),
   ('Burrito de chicharron', 16.0, 'Comida', 30, 40, 20),
   ('Burrito de frijoles', 16.0, 'Comida', 30, 40, 20),
   ('Burrito de colorado', 16.0, 'Comida', 30, 40, 20),
